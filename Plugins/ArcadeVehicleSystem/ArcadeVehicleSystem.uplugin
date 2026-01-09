@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.12.191",
+	"FriendlyName": "ArcadeVehicleSystem",
+	"Description": "Plugin provides flexible arcade vehicle movement system along with networking.",
+	"Category": "Vehicles",
+	"CreatedBy": "Furious Production LTD",
+	"CreatedByURL": "https://www.furiousproduction.com/",
+	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/31c6df7690794c0ca73171095eb8ec2f",
+	"SupportURL": "",
+	"EngineVersion": "5.7.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "ArcadeVehicleSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "ArcadeVehicleSystemEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	]
+}
