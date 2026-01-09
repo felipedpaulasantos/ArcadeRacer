@@ -1,0 +1,28 @@
+﻿# Unreal Engine (project)
+
+# Build products
+Binaries/
+
+# Intermediate files
+Intermediate/
+
+# Derived data cache (can be regenerated)
+DerivedDataCache/
+
+# Saved (autosaves, logs, crash dumps, local config)
+Saved/
+
+# IDE / tooling
+.vs/
+.idea/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.opensdf
+*.sdf
+
+# OS junk
+.DS_Store
+Thumbs.db
+
