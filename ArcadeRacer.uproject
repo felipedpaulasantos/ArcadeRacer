@@ -50,6 +50,10 @@
 		{
 			"Name": "GlobalEvents",
 			"Enabled": true
+		},
+		{
+			"Name": "FathomUELink",
+			"Enabled": false
 		}
 	]
 }

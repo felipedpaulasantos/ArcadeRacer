@@ -19,10 +19,6 @@ FString UDetailedPrintLibrary::GetBestCallerName(const UObject* WorldContextObje
 	// Se for um componente, preferir o dono (Actor)
 	if (const UActorComponent* AsComp = Cast<UActorComponent>(WorldContextObject))
 	{
-		if (const AActor* Owner = AsComp->GetOwner())
-		{
-			return GetClassPrettyName(Owner->GetClass());
-		}
 		return GetClassPrettyName(AsComp->GetClass());
 	}
 

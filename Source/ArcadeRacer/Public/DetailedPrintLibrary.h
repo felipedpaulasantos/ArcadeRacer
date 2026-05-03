@@ -10,7 +10,7 @@ class ARCADERACER_API UDetailedPrintLibrary : public UBlueprintFunctionLibrary
 	GENERATED_BODY()
 
 public:
-	/** Igual ao Print String, mas adiciona prefixo com o nome da Blueprint/Classe que originou a chamada. */
+	/** Same as Print String, but adds a prefix with the Blueprint/Class name that originated the call. */
 	UFUNCTION(BlueprintCallable, meta=(WorldContext="WorldContextObject", CallableWithoutWorldContext, AdvancedDisplay="2", DevelopmentOnly), Category="Utilities|Debug")
 	static void DetailedPrintString(
 		const UObject* WorldContextObject,
